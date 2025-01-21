@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: pika_dbt_project
+      schema: pika_dbt_project
+
+      tables:
+        - name: raw_customers
+        - name: raw_orders
